@@ -23,7 +23,7 @@ import com.classified.service.UserService;
 @Controller
 public class showController {
 	
-	@Autowired(required=true)
+	@Autowired
 	UserService userservice;
 
 	@RequestMapping(value="/show", method=RequestMethod.GET)

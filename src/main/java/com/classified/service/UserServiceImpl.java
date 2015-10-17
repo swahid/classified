@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService{
 		userMapper.insert(u);
 	}
 
-	@Transactional
+	@Transactional(readOnly=true)
 	public List<User> selectAll() {
 		// TODO Auto-generated method stub
 		return userMapper.selectAll();

@@ -8,11 +8,21 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Welcome ${user}</title>
+		<title>Classifeid Site Sample</title>
+		 <link rel="stylesheet" href="./WEB-INF/resources/css/indexCss.css" type="text/css"/>
 	</head> 
 	<body>
+		<div id="container">
+		<div id="header">Header</div>
+		<div id="body">
+		<div id="left">Body</div>	
+		<div id="middle">
 		<c:url value="/show" var="messageUrl" />
-		<a href="${messageUrl}">Click to enter</a>
+		<a href="${messageUrl}">Click to enter</a></div>	
+		<div id="right">Body</div>	
+		</div>		
+		<div id="footer">footer</div>
+		</div>
 		
 	</body>
 </html>
