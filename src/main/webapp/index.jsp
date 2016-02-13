@@ -15,7 +15,9 @@
 		<h2>choose Your location</h2>
 		<h3>Bangladesh</h3>
 		<c:url var="entry" value="/home"></c:url>
+		<c:url var="fbsign" value="/fbsign"></c:url>
 		<a href="<c:url value='/home/Dhaka'/>">Dhaka</a>
+		<a href="${fbsign}">Facebook sign up</a>
 		
 	</body>
 </html>
